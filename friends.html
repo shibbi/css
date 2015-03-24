@@ -24,10 +24,18 @@
 
   <!-- YOUR HTML HERE -->
   <header class="header">
-    <nav class="header-nav">
-      <h1 class="header-logo group">App Academy Friends</h1>
+    <nav class="header-nav group">
+      <h1 class="header-logo"><a href="#">App Academy Friends</a></h1>
       <ul class="header-list group">
-        <li class="group"><a href="#">Notifications</a></li>
+        <li class="group notification">
+          <a href="#">Notifications <span class="badge">3</span></a>
+          <ul class="notifications">
+            <li>Constance likes your photo.</li>
+            <li>Tommy left you a comment.</li>
+            <li id='last-notification'>Jonathan is now following you.</li>
+          </ul>
+        </li>
+
         <li class="group"><a href="#">Profile</a></li>
         <li class="group"><a href="#">Settings</a></li>
       </ul>

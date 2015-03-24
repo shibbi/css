@@ -4,49 +4,53 @@ body {
   font-weight: 400;
   font-family: "Roboto";
   font-size: 16px;
-  height: 900px;
   margin: 0;
 }
 
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: white;
-}
-
 .header {
+  background-color: red;
+  position: relative;
+  z-index: 1;
 }
 
 .header-nav {
-  background-color: red;
-  height: 40px;
+  border-bottom: 1px solid lightgray;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .header-logo {
   font-size: 16px;
   font-weight: 700;
   color: white;
+  height: 100%;
+  margin: 0;
   float: left;
-  padding: 12px 20px 12px 20px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  margin: 0px 0px 0px 65px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .header-list {
+  height: 39px;
   float: right;
-  border-right: 1px solid white;
-  margin: 0 65px 0 0;
+  border-right: 1px solid lightgray;
 }
 
-.header-list li {
-  font-size: 16px;
-  height: 16px;
+.header-list > li {
   float: left;
-  display: block;
-  padding: 12px 20px 12px 20px;
-  border-left: 1px solid white;
+  border-left: 1px solid lightgray;
 }
 
-.header-list li:hover {
-  background-color: black;
+.header a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 16px;
+  padding: 10px 20px;
 }
+
+.header-list li:hover { background-color: black; }
+
+.header-logo:hover { background-color: black; }
+
+.header-list li:hover .badge { background-color: red;}
