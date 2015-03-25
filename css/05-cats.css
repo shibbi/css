@@ -1,1 +1,16 @@
 /* PHASE 5: Cats */
+
+.content-header {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.content h1 {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  position: absolute;
+  padding: 20px;
+  z-index: 3;
+}

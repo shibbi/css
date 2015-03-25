@@ -7,7 +7,7 @@ body {
 .content {
   position: relative;
   width: 900px;
-  min-height: 240px;
+  min-height: 440px;
   background-color: #fff;
   margin: 0 auto;
   border: 1px solid #ccc;
@@ -23,18 +23,20 @@ body {
   top: 0;
   bottom: 0;
   background-color: #ccc;
+  z-index: 1;
 }
 
 .content-sidebar {
-  width: 240px;
-  min-height: 240px;
+  width: 200px;
+  min-height: 200px;
+  top: 200px;
   float: left;
-  background-color: #fff;
+  padding: 20px;
 }
 
 .content-main {
-  width: 660px;
-  min-height: 240px;
+  width: 620px;
+  min-height: 200px;
   float: left;
-  background-color: #fff;
+  padding: 20px;
 }
