@@ -2,11 +2,10 @@
 
 .badge {
   border-radius: 50%;
-  background-color: #000;
+  background-color: #ccc;
   padding: 1px 6px;
   font-size: 14px;
 }
-
 
 .notification {
   position: relative;
@@ -21,21 +20,21 @@
 }
 
 .notification:hover .notifications {
-  background-color: #fff;
+  background-color: #ccc;
   display: block;
 }
 
 .notifications > li {
   font-size: 14px;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   border-top: none;
   white-space: nowrap;
   padding:12px 20px ;
 }
 
 .notifications > li:hover {
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 .notifications > li:hover .header-list {

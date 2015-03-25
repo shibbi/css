@@ -8,13 +8,13 @@ body {
 }
 
 .header {
-  background-color: #f00;
+  background-color: pink;
   position: relative;
   z-index: 1;
 }
 
 .header-nav {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #aaa;
   width: 900px;
   margin: 0 auto;
 }
@@ -26,19 +26,19 @@ body {
   height: 100%;
   margin: 0;
   float: left;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
 }
 
 .header-list {
   height: 39px;
   float: right;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #aaa;
 }
 
 .header-list > li {
   float: left;
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #aaa;
 }
 
 .header a {
@@ -49,8 +49,8 @@ body {
   padding: 10px 20px;
 }
 
-.header-list li:hover { background-color: #000; }
+.header-list li:hover { background-color: #aaa; }
 
-.header-logo:hover { background-color: #000; }
+.header-logo:hover { background-color: #aaa; }
 
-.header-list li:hover .badge { background-color: #f00;}
+.header-list li:hover .badge { background-color: pink;}

@@ -4,7 +4,7 @@
   width: 900px;
   height: 60px;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   border-top: none;
   background-color: #fff;
   border-bottom-left-radius: 5px;
@@ -38,4 +38,4 @@
   color: #aaa;
 }
 
-.footer a:hover { color: #000; }
+.footer a:hover { color: #ccc; }

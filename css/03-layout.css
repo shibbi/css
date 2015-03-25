@@ -10,7 +10,7 @@ body {
   min-height: 440px;
   background-color: #fff;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   border-top: none;
 }
 
@@ -20,9 +20,9 @@ body {
   position: absolute;
   width: 1px;
   left: 240px;
-  top: 0;
+  top: 200px;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #aaa;
   z-index: 1;
 }
 
