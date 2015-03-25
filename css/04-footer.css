@@ -7,6 +7,8 @@
   border: 1px solid #ccc;
   border-top: none;
   background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .footer-logo {
